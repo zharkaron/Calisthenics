@@ -1,0 +1,55 @@
+/* Make dark mode the default look */
+:root {
+  color-scheme: dark;
+  --bg-color: #0d1117;
+  --text-color: #e6edf3;
+  --accent-color: #00bfff;
+}
+
+/* General body styling */
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Inter", "Arial", sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161b22;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Logo (zharkaron text) */
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* Navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+/* Page content */
+main {
+  padding: 2rem;
+}

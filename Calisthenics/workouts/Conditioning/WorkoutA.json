@@ -1,0 +1,44 @@
+[
+  {
+  "name": "Squat",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Elevated push-up",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Negative pull-up",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Two leg hip hinge",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Bent Knee bench dip",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Bent Knee closed grip row",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Forward bear crawl",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  }
+]

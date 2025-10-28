@@ -1,0 +1,44 @@
+[
+  {
+  "name": "Reverse lunge",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Horizontal sliding push-up from knees",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Flexed arm hang",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Floor bridge",
+  "sets": 3,
+  "reps": "",
+  "rest_interval": 30
+  },
+  {
+  "name": "Bent knee pike push-up",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Bent knee open grip row",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  },
+  {
+  "name": "Classic plank",
+  "sets": 3,
+  "reps": "10/15/20",
+  "rest_interval": 30
+  }
+]

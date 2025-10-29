@@ -61,7 +61,7 @@
   // load the workout JSON and launch viewer
   function loadWorkout(program, workoutLetter) {
     display.innerHTML = `<p>Loading Workout ${workoutLetter}…</p>`;
-    fetch(`../workouts/${program}/Workout${workoutLetter}.json`)
+    fetch(`/workouts/${program}/Workout${workoutLetter}.json`)
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch workout: " + res.status);
         return res.json();

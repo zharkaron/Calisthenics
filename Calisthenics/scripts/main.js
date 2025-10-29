@@ -15,7 +15,7 @@
   // load calendar.json for the chosen program
   function loadCalendar(program) {
     display.innerHTML = `<p>Loading ${program} calendar…</p>`;
-    fetch(`../workouts/${program}/calendar.json`)
+    fetch(`workouts/${program}/calendar.json`)
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch calendar.json: " + res.status);
         return res.json();
@@ -44,7 +44,6 @@
       html += `</tr>`;
     });
     html += `</tbody></table>`;
-    html += `<p style="margin-top:.75rem">Click a workout cell (A/B/C/D) to start that workout.</p>`;
 
     display.innerHTML = html;
 
@@ -61,7 +60,7 @@
   // load the workout JSON and launch viewer
   function loadWorkout(program, workoutLetter) {
     display.innerHTML = `<p>Loading Workout ${workoutLetter}…</p>`;
-    fetch(`/workouts/${program}/Workout${workoutLetter}.json`)
+    fetch(`workouts/${program}/Workout${workoutLetter}.json`)
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch workout: " + res.status);
         return res.json();
@@ -99,9 +98,7 @@
         <h2>${ex.name}</h2>
         <!-- placeholder for image -->
         <div style="height:140px;display:flex;align-items:center;justify-content:center;background:#f0f0f0;border-radius:8px;margin:0.75rem auto;width:80%;">Image / ${ex.name}</div>
-        <p>Set: ${Math.min(ex.sets || 1, 999)}</p>
         <p>Reps: ${repsCycle[repStage]}</p>
-        <p>Rest interval: ${ex.rest_interval}s</p>
 
         <div class="controls">
           <button id="backBtn">◀︎ Back</button>

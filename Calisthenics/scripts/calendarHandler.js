@@ -69,3 +69,4 @@ function loadWorkout(program, type) {
       console.error(err);
     });
 }
+

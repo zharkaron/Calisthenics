@@ -2,62 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jaguar Bytes - CTF Challenge</title>
+  <title>Jaguar Bytes - CTF</title>
 
-  <!-- FLAG 1: Hidden in HTML comment -->
   <!-- ZHK{HTML_SOURCE_REVEALS_TRUTH} -->
 
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-  <h1>🐆 Jaguar Bytes – Capture The Flags</h1>
-  <p>
-    Find all <strong>5 hidden flags</strong> across this website.
-    Each flag is hidden using a different technique.
-  </p>
+  <h1>Jaguar Bytes – Capture The Flags</h1>
+  <p>Find all <strong>5 ZHK flags</strong>. Order does NOT matter.</p>
 
   <table>
     <tr>
       <th>Flag #</th>
       <th>Enter Flag</th>
+      <th>Status</th>
     </tr>
+
     <tr>
       <td>Flag 1</td>
-      <td><input placeholder="FLAG{...}"></td>
+      <td><input id="flag1" placeholder="ZHK{...}"></td>
+      <td id="status1">❓</td>
     </tr>
+
     <tr>
       <td>Flag 2</td>
-      <td><input placeholder="FLAG{...}"></td>
+      <td><input id="flag2" placeholder="ZHK{...}"></td>
+      <td id="status2">❓</td>
     </tr>
+
     <tr>
       <td>Flag 3</td>
-      <td><input placeholder="FLAG{...}"></td>
+      <td><input id="flag3" placeholder="ZHK{...}"></td>
+      <td id="status3">❓</td>
     </tr>
+
     <tr>
       <td>Flag 4</td>
-      <td><input placeholder="FLAG{...}"></td>
+      <td><input id="flag4" placeholder="ZHK{...}"></td>
+      <td id="status4">❓</td>
     </tr>
+
     <tr>
       <td>Flag 5</td>
-      <td><input placeholder="FLAG{...}"></td>
+      <td><input id="flag5" placeholder="ZHK{...}"></td>
+      <td id="status5">❓</td>
     </tr>
   </table>
 
-  <footer>
-    Jaguar Bytes © 2026<br>
-    Hint: Not everything is visible 👀
-  </footer>
+  <button onclick="checkFlags()">Check Flags</button>
 
-  <!-- FLAG 3 (base64 encoded) -->
+  <p id="score"></p>
+
+  <!-- Base64 flag -->
   <!-- WkhLe0JBU0U2NF9FTkNPREVEfQ== -->
 
-  <script>
-  function getFlag() {
-    return atob("WkhLe0pBVkFTQ1JJUFRfS05PV1NfQUxMfQ==");
-  }
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>

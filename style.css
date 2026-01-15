@@ -1,10 +1,9 @@
-/* Jaguar Bytes Style Sheet */
+/* Jaguar Bytes Styles */
 
 /*
-FLAG{CSS_FILES_ARE_NOT_INVISIBLE}
+ZHK{CSS_FILES_ARE_NOT_INVISIBLE}
 */
 
-/* Base styling */
 body {
   background-color: #0f172a;
   color: #e5e7eb;
@@ -38,4 +37,17 @@ input {
   background: #020617;
   color: #e5e7eb;
   border: 1px solid #334155;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #22c55e;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #16a34a;
 }

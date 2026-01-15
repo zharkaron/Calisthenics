@@ -1,55 +1,41 @@
-/* Make dark mode the default look */
-:root {
-  color-scheme: dark;
-  --bg-color: #0d1117;
-  --text-color: #e6edf3;
-  --accent-color: #00bfff;
-}
+/* Jaguar Bytes Style Sheet */
 
-/* General body styling */
+/*
+FLAG{CSS_FILES_ARE_NOT_INVISIBLE}
+*/
+
+/* Base styling */
 body {
-  margin: 0;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: "Inter", "Arial", sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  padding: 40px;
 }
 
-/* Navigation bar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #161b22;
-  padding: 0.75rem 1.5rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+h1 {
+  color: #22c55e;
 }
 
-/* Logo (zharkaron text) */
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: color 0.3s;
+table {
+  width: 100%;
+  max-width: 700px;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.logo:hover {
-  color: var(--accent-color);
+th, td {
+  border: 1px solid #334155;
+  padding: 10px;
 }
 
-/* Navigation links */
-.nav-links a {
-  text-decoration: none;
-  color: var(--text-color);
-  margin-left: 1rem;
-  transition: color 0.3s;
+th {
+  background-color: #020617;
 }
 
-.nav-links a:hover {
-  color: var(--accent-color);
-}
-
-/* Page content */
-main {
-  padding: 2rem;
+input {
+  width: 100%;
+  padding: 8px;
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #334155;
 }

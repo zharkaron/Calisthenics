@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zharkaron</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Jaguar Bytes - CTF Challenge</title>
+
+  <!-- FLAG 1: Hidden in HTML comment -->
+  <!-- ZHK{HTML_SOURCE_REVEALS_TRUTH} -->
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
-    <body>
-        <nav class="navbar">
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="Calisthenics/index.html">Workout</a>
-                <a href="about.html">About</a>
-            </div>
-        </nav>
-        <main>
-            <h1>Welcome to my website</h1>
-            <p>This is your dark mode website.</p>
-        </main>
-    </body>
+<body>
+
+  <h1>🐆 Jaguar Bytes – Capture The Flags</h1>
+  <p>
+    Find all <strong>5 hidden flags</strong> across this website.
+    Each flag is hidden using a different technique.
+  </p>
+
+  <table>
+    <tr>
+      <th>Flag #</th>
+      <th>Enter Flag</th>
+    </tr>
+    <tr>
+      <td>Flag 1</td>
+      <td><input placeholder="FLAG{...}"></td>
+    </tr>
+    <tr>
+      <td>Flag 2</td>
+      <td><input placeholder="FLAG{...}"></td>
+    </tr>
+    <tr>
+      <td>Flag 3</td>
+      <td><input placeholder="FLAG{...}"></td>
+    </tr>
+    <tr>
+      <td>Flag 4</td>
+      <td><input placeholder="FLAG{...}"></td>
+    </tr>
+    <tr>
+      <td>Flag 5</td>
+      <td><input placeholder="FLAG{...}"></td>
+    </tr>
+  </table>
+
+  <footer>
+    Jaguar Bytes © 2026<br>
+    Hint: Not everything is visible 👀
+  </footer>
+
+  <!-- FLAG 3 (base64 encoded) -->
+  <!-- WkhLe0JBU0U2NF9FTkNPREVEfQ== -->
+
+  <script>
+  function getFlag() {
+    return atob("WkhLe0pBVkFTQ1JJUFRfS05PV1NfQUxMfQ==");
+  }
+  </script>
+
+</body>
 </html>

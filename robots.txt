@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin-panel.html
+
+# FLAG{ROBOTS_ARE_TOO_HONEST}

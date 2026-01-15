@@ -1,2 +1,4 @@
-# Calisthenics
-This is a repository to host a website that allows you to do workouts for calisthenics little by little depending on you experience level and being able to calculate hopefully
+# Jaguar bytes CTF
+
+This is a small ctf finder for the tabling that we are going to have soon.
+there is going to be 5 ctfs that they are going to need to find

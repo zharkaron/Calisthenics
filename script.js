@@ -39,7 +39,7 @@ async function checkFlags() {
 }
 
 function revealFlag() {
-  alert("ZHK{XSS_EXECUTES_JAVASCRIPT}");
+  console.log("ZHK{XSS_EXECUTES_JAVASCRIPT}");
 }
 
 function debug() {

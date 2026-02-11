@@ -178,5 +178,41 @@
       { "Text": "state constitutions only", "Correct": false },
       { "Text": "the Tenth Amendment alone", "Correct": false }
     ]
+  },
+  "Q21": {
+    "Question": "The first five words of the First Amendment to the U.S. Constitution are:",
+    "Answers": [
+      { "Text": "We the People of the", "Correct": false },
+      { "Text": "Congress shall make no law", "Correct": true },
+      { "Text": "The powers not delegated", "Correct": false },
+      { "Text": "All legislative powers herein", "Correct": false }
+    ]
+  },
+  "Q22": {
+    "Question": "Which group voted to ratify the Constitution only after the promise of a Bill of Rights?",
+    "Answers": [
+      { "Text": "Federalists", "Correct": false },
+      { "Text": "Anti-Federalists", "Correct": true },
+      { "Text": "Whigs", "Correct": false },
+      { "Text": "Democratic-Republicans", "Correct": false }
+    ]
+  },
+  "Q23": {
+    "Question": "The Establishment Clause of the First Amendment is primarily concerned with:",
+    "Answers": [
+      { "Text": "protecting the right to practice religion freely", "Correct": false },
+      { "Text": "preventing the government from establishing an official religion", "Correct": true },
+      { "Text": "limiting freedom of speech", "Correct": false },
+      { "Text": "allowing states to choose official religions", "Correct": false }
+    ]
+  },
+  "Q24": {
+    "Question": "The Free Exercise Clause of the First Amendment protects:",
+    "Answers": [
+      { "Text": "freedom of speech and assembly", "Correct": false },
+      { "Text": "the right to believe and practice religion freely", "Correct": true },
+      { "Text": "separation of church and state", "Correct": false },
+      { "Text": "the right to petition the government", "Correct": false }
+    ]
   }
 }

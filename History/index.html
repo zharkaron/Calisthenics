@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <style>
+    body { 
+      font-family: Arial; 
+      max-width: 800px; 
+      margin: 40px auto; 
+    }
+
+    button {
+      padding: 8px 12px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .answer {
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .answer:hover {
+      background: #f0f0f0;
+    }
+
+    .correct {
+      background: #c8f7c5;
+      border-color: green;
+    }
+
+    .wrong {
+      background: #f7c5c5;
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Quiz App</h1>
+
+<label>Select Quiz:</label>
+<select id="quizSelect"></select>
+<button onclick="loadQuiz()">Start Quiz</button>
+
+<hr>
+
+<div id="quizArea" style="display:none;">
+  <h2 id="questionText"></h2>
+  <div id="answers"></div>
+  <p id="feedback"></p>
+  <button onclick="nextQuestion()" id="nextBtn" style="display:none;">Next</button>
+</div>
+
+<script>
+let questions = [];
+let currentIndex = 0;
+let score = 0;
+let answered = false;
+
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+async function loadQuizList() {
+  const res = await fetch("quiz-list.json");
+  const data = await res.json();
+  const select = document.getElementById("quizSelect");
+
+  data.quizzes.forEach(file => {
+    const option = document.createElement("option");
+    option.value = file;
+    option.textContent = file.replace(".json", "");
+    select.appendChild(option);
+  });
+}
+
+async function loadQuiz() {
+  const file = document.getElementById("quizSelect").value;
+  const res = await fetch(`questions/${file}`);
+  const data = await res.json();
+
+  questions = Object.values(data);
+  shuffle(questions);
+
+  currentIndex = 0;
+  score = 0;
+
+  document.getElementById("quizArea").style.display = "block";
+  renderQuestion();
+}
+
+function renderQuestion() {
+  answered = false;
+  document.getElementById("feedback").textContent = "";
+  document.getElementById("nextBtn").style.display = "none";
+
+  const q = questions[currentIndex];
+  document.getElementById("questionText").textContent =
+    `Question ${currentIndex + 1}: ${q.Question}`;
+
+  const answersDiv = document.getElementById("answers");
+  answersDiv.innerHTML = "";
+
+  shuffle(q.Answers);
+
+  q.Answers.forEach(answer => {
+    const div = document.createElement("div");
+    div.className = "answer";
+    div.textContent = answer.Text;
+
+    div.onclick = () => {
+      if (answered) return;
+      answered = true;
+
+      if (answer.Correct) {
+        div.classList.add("correct");
+        document.getElementById("feedback").textContent = "Correct!";
+        score++;
+      } else {
+        div.classList.add("wrong");
+        document.getElementById("feedback").textContent = "Incorrect.";
+        highlightCorrect(q.Answers);
+      }
+
+      document.getElementById("nextBtn").style.display = "inline-block";
+    };
+
+    answersDiv.appendChild(div);
+  });
+}
+
+function highlightCorrect(answers) {
+  const answerDivs = document.querySelectorAll(".answer");
+  answers.forEach((a, i) => {
+    if (a.Correct) {
+      answerDivs[i].classList.add("correct");
+    }
+  });
+}
+
+function nextQuestion() {
+  currentIndex++;
+
+  if (currentIndex >= questions.length) {
+    const percent = Math.round((score / questions.length) * 100);
+    document.getElementById("quizArea").innerHTML =
+      `<h2>Quiz Complete!</h2>
+       <p>Your Score: ${score} / ${questions.length}</p>
+       <p>Percentage: ${percent}%</p>`;
+    return;
+  }
+
+  renderQuestion();
+}
+
+loadQuizList();
+</script>
+
+</body>
+</html>

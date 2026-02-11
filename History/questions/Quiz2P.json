@@ -1,0 +1,121 @@
+{
+  "Q1": {
+    "Question": "Federalism is best defined as",
+    "Answers": [
+      { "Text": "A division of power between the national government and state governments", "Correct": true },
+      { "Text": "A system where all power belongs to the federal government", "Correct": false },
+      { "Text": "A system where all power belongs to state governments", "Correct": false },
+      { "Text": "A system without a written constitution", "Correct": false }
+    ]
+  },
+
+  "Q2": {
+    "Question": "Which of the following is an expressed power of the federal government?",
+    "Answers": [
+      { "Text": "Regulating interstate commerce", "Correct": true },
+      { "Text": "Establishing public schools", "Correct": false },
+      { "Text": "Issuing marriage licenses", "Correct": false },
+      { "Text": "Running local police departments", "Correct": false }
+    ]
+  },
+
+  "Q3": {
+    "Question": "The Necessary and Proper Clause is most closely associated with",
+    "Answers": [
+      { "Text": "Implied powers of the federal government", "Correct": true },
+      { "Text": "Reserved powers of the states", "Correct": false },
+      { "Text": "Police powers", "Correct": false },
+      { "Text": "Concurrent powers", "Correct": false }
+    ]
+  },
+
+  "Q4": {
+    "Question": "Police powers allow state governments to regulate",
+    "Answers": [
+      { "Text": "Health, safety, and morals", "Correct": true },
+      { "Text": "Foreign policy", "Correct": false },
+      { "Text": "Interstate commerce", "Correct": false },
+      { "Text": "National defense", "Correct": false }
+    ]
+  },
+
+  "Q5": {
+    "Question": "Concurrent powers are powers that",
+    "Answers": [
+      { "Text": "Are shared by both state and national governments", "Correct": true },
+      { "Text": "Belong only to the states", "Correct": false },
+      { "Text": "Belong only to the federal government", "Correct": false },
+      { "Text": "Are prohibited by the Constitution", "Correct": false }
+    ]
+  },
+
+  "Q6": {
+    "Question": "The Supremacy Clause establishes that",
+    "Answers": [
+      { "Text": "Federal law overrides state law when there is a conflict", "Correct": true },
+      { "Text": "State law always overrides federal law", "Correct": false },
+      { "Text": "States may ignore federal laws", "Correct": false },
+      { "Text": "Local governments have final authority", "Correct": false }
+    ]
+  },
+
+  "Q7": {
+    "Question": "The Full Faith and Credit Clause requires states to",
+    "Answers": [
+      { "Text": "Recognize the laws and court decisions of other states", "Correct": true },
+      { "Text": "Use identical state constitutions", "Correct": false },
+      { "Text": "Follow only federal court rulings", "Correct": false },
+      { "Text": "Share tax revenue equally", "Correct": false }
+    ]
+  },
+
+  "Q8": {
+    "Question": "Dual federalism is often referred to as",
+    "Answers": [
+      { "Text": "Layer cake federalism", "Correct": true },
+      { "Text": "Marble cake federalism", "Correct": false },
+      { "Text": "New federalism", "Correct": false },
+      { "Text": "Regulated federalism", "Correct": false }
+    ]
+  },
+
+  "Q9": {
+    "Question": "Cooperative federalism is characterized by",
+    "Answers": [
+      { "Text": "Shared responsibilities between federal and state governments", "Correct": true },
+      { "Text": "Strict separation of state and federal roles", "Correct": false },
+      { "Text": "Exclusive state authority", "Correct": false },
+      { "Text": "Elimination of federal funding", "Correct": false }
+    ]
+  },
+
+  "Q10": {
+    "Question": "The separation of powers was designed to",
+    "Answers": [
+      { "Text": "Prevent any one branch from becoming too powerful", "Correct": true },
+      { "Text": "Strengthen the executive branch above all others", "Correct": false },
+      { "Text": "Eliminate the legislative branch", "Correct": false },
+      { "Text": "Remove checks and balances", "Correct": false }
+    ]
+  },
+
+  "Q11": {
+    "Question": "Checks and balances allow each branch of government to",
+    "Answers": [
+      { "Text": "Limit the power of the other branches", "Correct": true },
+      { "Text": "Operate independently without oversight", "Correct": false },
+      { "Text": "Control state governments directly", "Correct": false },
+      { "Text": "Ignore the Constitution", "Correct": false }
+    ]
+  },
+
+  "Q12": {
+    "Question": "Divided government occurs when",
+    "Answers": [
+      { "Text": "Different political parties control the presidency and Congress", "Correct": true },
+      { "Text": "One party controls all branches of government", "Correct": false },
+      { "Text": "The judiciary controls Congress", "Correct": false },
+      { "Text": "Federalism is eliminated", "Correct": false }
+    ]
+  }
+}

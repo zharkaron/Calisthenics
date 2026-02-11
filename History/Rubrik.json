@@ -1,0 +1,106 @@
+{
+  "Q1": {
+    "Question": "Power derived from the necessary and proper clause of Article I, Section 8, of the Constitution are called",
+    "Answers": [
+      { "Text": "Unicameral powers", "Correct": false },
+      { "Text": "Implied powers", "Correct": true },
+      { "Text": "Expressed powers", "Correct": false },
+      { "Text": "Unenumerated powers", "Correct": false }
+    ]
+  },
+  "Q2": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q3": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q4": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q5": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true }
+    ]
+  },
+  "Q6": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true }
+    ]
+  },
+  "Q7": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q8": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true }
+    ]
+  },
+  "Q9": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q10": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true }
+    ]
+  },
+  "Q11": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false }
+    ]
+  },
+  "Q12": {
+    "Question": "",
+    "Answers": [
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": true },
+      { "Text": "", "Correct": false },
+      { "Text": "", "Correct": false }
+    ]
+  }
+}

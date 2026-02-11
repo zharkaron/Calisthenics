@@ -1,0 +1,106 @@
+{
+  "Q1": {
+    "Question": "The ___________ were a faction at the Constitutional Convention who supported creating a new, stronger, central government",
+    "Answers": [
+      { "Text": "Federalists", "Correct": true },
+      { "Text": "Anti-Federalists", "Correct": false },
+      { "Text": "Royalists", "Correct": false },
+      { "Text": "Republicans", "Correct": false }
+    ]
+  },
+  "Q2": {
+    "Question": "Before the Constitution was implemented, __ out of the 13 states needed to ratify it",
+    "Answers": [
+      { "Text": "12", "Correct": false },
+      { "Text": "11", "Correct": false },
+      { "Text": "9", "Correct": true },
+      { "Text": "13", "Correct": false }
+    ]
+  },
+  "Q3": {
+    "Question": "If Shay's Rebellion had not taken place, the Constitutional Convention of 1787 in Philadelphia might have never happened because the rebellion showed that",
+    "Answers": [
+      { "Text": "Letting problems such as farm foreclosures fester was not a strategy for national success.", "Correct": false },
+      { "Text": "Under the Articles of Confederation, the president and the judiciary were too weak", "Correct": false },
+      { "Text": "Under the Articles of Confederation, the Government could not act decisively in a time of crisis", "Correct": true },
+      { "Text": "Beyond all doubt, elite groups could not trust radical forces.", "Correct": false }
+    ]
+  },
+  "Q4": {
+    "Question": "For Congress to send an amendment to the Constitution to state legislatures or ratifying conventions for approval, it must pass",
+    "Answers": [
+      { "Text": "In both the House and Senate with two-thirds majority", "Correct": true },
+      { "Text": "In either the House or Senate with a two-thirds majority", "Correct": false },
+      { "Text": "In either the House or Senate with a simple majority", "Correct": false },
+      { "Text": "In both the House and Senate with a simple majority", "Correct": false }
+    ]
+  },
+  "Q5": {
+    "Question": "The founders at the Constitutional Convention were all opposed to slavery",
+    "Answers": [
+      { "Text": "True", "Correct": false },
+      { "Text": "False", "Correct": true }
+    ]
+  },
+  "Q6": {
+    "Question": "Why did smaller states object to the Virginia Plan?",
+    "Answers": [
+      { "Text": "The smaller states feared the national government would force them to pay equal shares of national budget", "Correct": false },
+      { "Text": "The smaller states wanted to maintain the existing structure of the Articles of Confederation", "Correct": false },
+      { "Text": "The smaller states tend to be from the North and objected to the strong proslavery content of Virginia plan", "Correct": false },
+      { "Text": "The Virginia Plan provided greater representation in the national legislature for the larger and/or wealthier states, which disadvantage the smaller states", "Correct": true }
+    ]
+  },
+  "Q7": {
+    "Question": "Under the U.S. Constitution, the part of the elected government designed to be directly responsible to the people was the",
+    "Answers": [
+      { "Text": "Bureaucracy", "Correct": false },
+      { "Text": "House of Representatives", "Correct": true },
+      { "Text": "Senate", "Correct": false },
+      { "Text": "Judiciary", "Correct": false }
+    ]
+  },
+  "Q8": {
+    "Question": "2/3rds of the states need to ratify an amendment before it can be added to the Constitution",
+    "Answers": [
+      { "Text": "True", "Correct": false },
+      { "Text": "False", "Correct": true }
+    ]
+  },
+  "Q9": {
+    "Question": "Which of the following was an event that immediately preceded the Constitutional Convention",
+    "Answers": [
+      { "Text": "The Civil War", "Correct": false },
+      { "Text": "Boston Tea Party", "Correct": false },
+      { "Text": "Shays Rebellion", "Correct": true },
+      { "Text": "War of 1812", "Correct": false }
+    ]
+  },
+  "Q10": {
+    "Question": "Which of the following is NOT a right found in the Declaration of Independence?",
+    "Answers": [
+      { "Text": "Life", "Correct": false },
+      { "Text": "Liberty", "Correct": false },
+      { "Text": "Pursuit of Happiness", "Correct": false },
+      { "Text": "Property", "Correct": true }
+    ]
+  },
+  "Q11": {
+    "Question": "The first ten amendments to the Constitution, known as the Bill of Rights, were advocated for by the ________________",
+    "Answers": [
+      { "Text": "Federalists", "Correct": false },
+      { "Text": "Anti-Federalists", "Correct": true },
+      { "Text": "Small state representatives", "Correct": false },
+      { "Text": "Large state representatives", "Correct": false }
+    ]
+  },
+  "Q12": {
+    "Question": "The issue of counting enslaved people for purposes of representation was settled by the",
+    "Answers": [
+      { "Text": "Seventh Amendment", "Correct": false },
+      { "Text": "Three-Fifths Compromise", "Correct": true },
+      { "Text": "Virginia Plan", "Correct": false },
+      { "Text": "Great Compromise", "Correct": false }
+    ]
+  }
+}

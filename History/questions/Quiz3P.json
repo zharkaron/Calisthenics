@@ -1,0 +1,182 @@
+{
+  "Q1": {
+    "Question": "Civil liberties are best defined as",
+    "Answers": [
+      { "Text": "protections of citizens from improper governmental action", "Correct": true },
+      { "Text": "guarantees that ensure equal treatment under the law", "Correct": false },
+      { "Text": "rights granted only by state governments", "Correct": false },
+      { "Text": "economic freedoms protected by Congress", "Correct": false }
+    ]
+  },
+  "Q2": {
+    "Question": "Civil rights differ from civil liberties in that civil rights focus on",
+    "Answers": [
+      { "Text": "what government cannot do", "Correct": false },
+      { "Text": "protections of political freedom", "Correct": false },
+      { "Text": "guaranteeing equal citizenship and preventing discrimination", "Correct": true },
+      { "Text": "individual freedoms from criminal prosecution", "Correct": false }
+    ]
+  },
+  "Q3": {
+    "Question": "The first ten amendments to the Constitution are collectively known as the",
+    "Answers": [
+      { "Text": "Articles of Confederation", "Correct": false },
+      { "Text": "Declaration of Rights", "Correct": false },
+      { "Text": "Bill of Rights", "Correct": true },
+      { "Text": "Federalist Papers", "Correct": false }
+    ]
+  },
+  "Q4": {
+    "Question": "The process by which the Bill of Rights has been applied to the states through the Fourteenth Amendment is called",
+    "Answers": [
+      { "Text": "federalism", "Correct": false },
+      { "Text": "selective incorporation", "Correct": true },
+      { "Text": "judicial activism", "Correct": false },
+      { "Text": "dual sovereignty", "Correct": false }
+    ]
+  },
+  "Q5": {
+    "Question": "Strict scrutiny is best described as",
+    "Answers": [
+      { "Text": "a lenient standard used in economic regulation cases", "Correct": false },
+      { "Text": "a judicial standard requiring a compelling state interest", "Correct": true },
+      { "Text": "a review limited to criminal trials", "Correct": false },
+      { "Text": "automatic approval of government actions", "Correct": false }
+    ]
+  },
+  "Q6": {
+    "Question": "The Establishment Clause of the First Amendment is commonly interpreted as",
+    "Answers": [
+      { "Text": "protecting freedom of speech", "Correct": false },
+      { "Text": "allowing states to establish official religions", "Correct": false },
+      { "Text": "creating a separation of church and state", "Correct": true },
+      { "Text": "preventing religious practices entirely", "Correct": false }
+    ]
+  },
+  "Q7": {
+    "Question": "The Free Exercise Clause of the First Amendment protects",
+    "Answers": [
+      { "Text": "the right to criticize the government", "Correct": false },
+      { "Text": "the right to believe and practice any religion", "Correct": true },
+      { "Text": "freedom of the press", "Correct": false },
+      { "Text": "the right to assemble peacefully", "Correct": false }
+    ]
+  },
+  "Q8": {
+    "Question": "Freedom of expression includes all of the following EXCEPT",
+    "Answers": [
+      { "Text": "freedom of speech", "Correct": false },
+      { "Text": "freedom of assembly", "Correct": false },
+      { "Text": "freedom to petition the government", "Correct": false },
+      { "Text": "freedom from self-incrimination", "Correct": true }
+    ]
+  },
+  "Q9": {
+    "Question": "Speech that involves expression combined with actions, such as protesting, is known as",
+    "Answers": [
+      { "Text": "symbolic speech", "Correct": false },
+      { "Text": "political speech", "Correct": false },
+      { "Text": "speech plus", "Correct": true },
+      { "Text": "sedition", "Correct": false }
+    ]
+  },
+  "Q10": {
+    "Question": "Speech that criticizes the government in order to promote rebellion is referred to as",
+    "Answers": [
+      { "Text": "libel", "Correct": false },
+      { "Text": "slander", "Correct": false },
+      { "Text": "sedition", "Correct": true },
+      { "Text": "obscenity", "Correct": false }
+    ]
+  },
+  "Q11": {
+    "Question": "Written defamation of a person's character is known as",
+    "Answers": [
+      { "Text": "slander", "Correct": false },
+      { "Text": "libel", "Correct": true },
+      { "Text": "fighting words", "Correct": false },
+      { "Text": "obscenity", "Correct": false }
+    ]
+  },
+  "Q12": {
+    "Question": "Spoken defamation of a person's character is known as",
+    "Answers": [
+      { "Text": "libel", "Correct": false },
+      { "Text": "slander", "Correct": true },
+      { "Text": "sedition", "Correct": false },
+      { "Text": "symbolic speech", "Correct": false }
+    ]
+  },
+  "Q13": {
+    "Question": "The Supreme Court case that affirmed an individual right to own a gun under the Second Amendment was",
+    "Answers": [
+      { "Text": "Griswold v. Connecticut", "Correct": false },
+      { "Text": "McDonald v. Chicago", "Correct": false },
+      { "Text": "D.C. v. Heller", "Correct": true },
+      { "Text": "Brown v. Board of Education", "Correct": false }
+    ]
+  },
+  "Q14": {
+    "Question": "Which Supreme Court case applied the Second Amendment to the states through selective incorporation?",
+    "Answers": [
+      { "Text": "D.C. v. Heller", "Correct": false },
+      { "Text": "McDonald v. Chicago", "Correct": true },
+      { "Text": "Miranda v. Arizona", "Correct": false },
+      { "Text": "Roe v. Wade", "Correct": false }
+    ]
+  },
+  "Q15": {
+    "Question": "The Fourth Amendment protects citizens against",
+    "Answers": [
+      { "Text": "self-incrimination", "Correct": false },
+      { "Text": "unreasonable searches and seizures", "Correct": true },
+      { "Text": "cruel and unusual punishment", "Correct": false },
+      { "Text": "double jeopardy", "Correct": false }
+    ]
+  },
+  "Q16": {
+    "Question": "Which of the following rights is guaranteed by the Fifth Amendment?",
+    "Answers": [
+      { "Text": "right to bear arms", "Correct": false },
+      { "Text": "freedom of the press", "Correct": false },
+      { "Text": "protection against double jeopardy", "Correct": true },
+      { "Text": "right to a speedy trial", "Correct": false }
+    ]
+  },
+  "Q17": {
+    "Question": "The Sixth Amendment guarantees all of the following EXCEPT",
+    "Answers": [
+      { "Text": "the right to an attorney", "Correct": false },
+      { "Text": "a fair and speedy trial", "Correct": false },
+      { "Text": "an impartial jury", "Correct": false },
+      { "Text": "protection against unreasonable searches", "Correct": true }
+    ]
+  },
+  "Q18": {
+    "Question": "The Eighth Amendment protects against",
+    "Answers": [
+      { "Text": "self-incrimination", "Correct": false },
+      { "Text": "cruel and unusual punishment", "Correct": true },
+      { "Text": "double jeopardy", "Correct": false },
+      { "Text": "prior restraint", "Correct": false }
+    ]
+  },
+  "Q19": {
+    "Question": "The constitutional right to privacy was most clearly articulated in",
+    "Answers": [
+      { "Text": "D.C. v. Heller", "Correct": false },
+      { "Text": "Griswold v. Connecticut", "Correct": true },
+      { "Text": "McDonald v. Chicago", "Correct": false },
+      { "Text": "Federalist 51", "Correct": false }
+    ]
+  },
+  "Q20": {
+    "Question": "According to the Supreme Court, the right to privacy comes from",
+    "Answers": [
+      { "Text": "explicit wording in the Constitution", "Correct": false },
+      { "Text": "penumbras formed by guarantees in the Bill of Rights", "Correct": true },
+      { "Text": "state constitutions only", "Correct": false },
+      { "Text": "the Tenth Amendment alone", "Correct": false }
+    ]
+  }
+}

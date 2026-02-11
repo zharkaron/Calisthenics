@@ -1,0 +1,104 @@
+{
+  "Q1": {
+    "Question": "Power derived from the necessary and proper clause of Article I, Section 8, of the Constitution are called",
+    "Answers": [
+      { "Text": "Unicameral powers", "Correct": false },
+      { "Text": "Implied powers", "Correct": true },
+      { "Text": "Expressed powers", "Correct": false },
+      { "Text": "Unenumerated powers", "Correct": false }
+    ]
+  },
+  "Q2": {
+    "Question": "Powers derived from the Tenth Amendment to the Constitution that are not specifically delegated to the national government or denied to the states are known as _________",
+    "Answers": [
+      { "Text": "exclusive", "Correct": false },
+      { "Text": "separation", "Correct": false },
+      { "Text": "reserverd", "Correct": true },
+      { "Text": "restricted", "Correct": false }
+    ]
+  },
+  "Q3": {
+    "Question": "The authors of the U.S. Constitution used a strategy of separation of powers to limit the powers of the government by",
+    "Answers": [
+      { "Text": "forcing states to compete against themselves", "Correct": false },
+      { "Text": "prohibiting Congress and the states from passing ex post facto laws", "Correct": false },
+      { "Text": "dividing national government against itself", "Correct": true },
+      { "Text": "police powers clause", "Correct": false }
+    ]
+  },
+  "Q4": {
+    "Question": "Imagine you are resident of California and have a California driver's license. If you decide to take a road trip to Arizona, which cause of the Constitution requires Arizona to recognize you California driver's license?",
+    "Answers": [
+      { "Text": "commerce clause", "Correct": false },
+      { "Text": "supremacy clause", "Correct": false },
+      { "Text": "full faith and credit clause", "Correct": true },
+      { "Text": "police powers clause", "Correct": false }
+    ]
+  },
+  "Q5": {
+    "Question": "This type of federalism, which came into being during the New Deal era, features the strategic use of grants-in-aid to encourage (not command) states and localities to pursue nationally defined goals",
+    "Answers": [
+      { "Text": "dual federalism", "Correct": false },
+      { "Text": "welfare federalism", "Correct": false },
+      { "Text": "subsidy federalism", "Correct": false },
+      { "Text": "cooperative federalism", "Correct": true }
+    ]
+  },
+  "Q6": {
+    "Question": "Mechanisms through which each branch of government participates in and influences the activities of the other branches are referred to as",
+    "Answers": [
+      { "Text": "separation of powers", "Correct": false },
+      { "Text": "federalism ", "Correct": false },
+      { "Text": "cooperative governance", "Correct": false },
+      { "Text": "checks and balances", "Correct": true }
+    ]
+  },
+  "Q7": {
+    "Question": "federalism is a system of government in which Constitution divided power between a federal government and states governments",
+    "Answers": [
+      { "Text": "True", "Correct": true },
+      { "Text": "False", "Correct": false }
+    ]
+  },
+  "Q8": {
+    "Question": "In Federalism 51, James Madison argued that having the executive branch be the strongest and most powerful in the federal government would help overcome barriers to policy change.",
+    "Answers": [
+      { "Text": "true", "Correct": false },
+      { "Text": "false", "Correct": true }
+    ]
+  },
+  "Q9": {
+    "Question": "the relationship between the federal government and the state government has been constant over the course of American history",
+    "Answers": [
+      { "Text": "true", "Correct": false },
+      { "Text": "false", "Correct": true }
+    ]
+  },
+  "Q10": {
+    "Question": "_____________ allows states to regulate fundamental matters like health, safety, and morals",
+    "Answers": [
+      { "Text": "Regulative powers", "Correct": false },
+      { "Text": "Agency powers", "Correct": false },
+      { "Text": "state powers", "Correct": false },
+      { "Text": "Police powers", "Correct": true }
+    ]
+  },
+  "Q11": {
+    "Question": "In Federalist 10, James Madison claims that ___________ is the most durable source of factions in a society",
+    "Answers": [
+      { "Text": "religious differences", "Correct": false },
+      { "Text": "unequal distribution of property", "Correct": true },
+      { "Text": "gender norms", "Correct": false },
+      { "Text": "ideological differences", "Correct": false }
+    ]
+  },
+  "Q12": {
+    "Question": "Which constitutional amendment was adopted to address the Antifederalists' concerns that a strong central government would encroach on the power of the states",
+    "Answers": [
+      { "Text": "13th Amendment", "Correct": false },
+      { "Text": "10th Amendment", "Correct": true },
+      { "Text": "1st Amendment", "Correct": false },
+      { "Text": "5th Amendment", "Correct": false }
+    ]
+  }
+}
